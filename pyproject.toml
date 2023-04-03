@@ -5,7 +5,7 @@ description = ""
 authors = ["Devin Young <devin@devinyoungweb.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "k3ao"}]
+packages = []#{include = "k3ao"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
