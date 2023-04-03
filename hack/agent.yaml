@@ -1,0 +1,10 @@
+apiVersion: k3ao.devinyoung.io/v1alpha1
+kind: Agent
+metadata:
+  name: baremetal-mbp18
+  namespace: kube-system
+spec:
+  address: '192.168.1.28'
+  port: 22
+  sshKeySecretName: terraform-ssh-key
+  
